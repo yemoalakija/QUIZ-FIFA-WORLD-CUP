@@ -1,0 +1,39 @@
+
+Header {
+	background-color: rgba(9, 9, 216, 0.89);
+	width: 100%;
+	height: 120px;
+	display: inline-block;
+}
+
+.flagsright {
+    width: 50%;
+	height: 100%;
+    line-height: 2cm;
+    display: inline-block;	
+}
+
+.contentquiz {
+    float: left;
+    width: 50%;
+    height: auto;
+    display: inline-block;	
+    line-height: 1cm;
+}
+
+footer {
+	background-color: rgba(9, 9, 216, 0.89);
+	width: 100%;
+	height: 80px;
+	display: inline-block;
+}
+
+.socialmedia {
+	color: #FFFFFF;
+	font-size: larger;
+	margin-left: 15px;
+}
+
+span {
+    color: #FFFFFF;
+}

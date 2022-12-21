@@ -7,7 +7,7 @@ https://kwizzbit.com/fifa-world-cup-quiz-questions-and-answers/
 IMAGES
 
 WCTROPHY
-https://www.amazon.com/ANEGIRAL-Trophies-Engraving-Collectible-5-11inch/dp/B0BLK6P1MJ
+https://unb.com.bd/category/Sports/is-the-fifa-football-world-cup-trophy-made-of-solid-gold/103291
 
 BALLFLAG
 https://www.worldflagsdirect.com/worldcup2022.html

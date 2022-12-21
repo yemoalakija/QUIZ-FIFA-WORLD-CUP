@@ -1,4 +1,8 @@
 
+Body {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
 Header {
 	background-color: rgba(9, 9, 216, 0.89);
 	width: 100%;
@@ -6,11 +10,22 @@ Header {
 	display: inline-block;
 }
 
+h1 {
+    color:#FFFFFF;
+    margin-left: 15px;
+}
+
+li {
+    font-weight: bold;
+}
+
 .flagsright {
-    width: 50%;
+    width: 40%;
 	height: 100%;
-    line-height: 2cm;
+    line-height: 5cm;
     display: inline-block;	
+    margin-top: 30px;
+    margin-left: 10%;
 }
 
 .contentquiz {

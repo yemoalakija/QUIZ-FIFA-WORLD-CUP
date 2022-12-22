@@ -12,8 +12,27 @@ Header {
 
 h1 {
     color:#FFFFFF;
-    margin-left: 15px;
+    margin-left: 50px;
+    text-align: center;
 }
+
+h1 {
+
+    /* animates zoom effect on loading page */
+    animation-name: h1;
+    animation-duration: 4s; 
+    animation-fill-mode: forwards;
+    }
+    
+    /* creates the level zoom for hero image*/
+    @keyframes h1 {
+        from{
+            transform: scale(1);
+        }
+        to{
+            transform: scale(1.2);
+        }
+    }
 
 li {
     font-weight: bold;
@@ -38,18 +57,19 @@ li {
 }
 
 footer {
-	background-color: rgba(9, 9, 216, 0.89);
+	background-color: lightblue;
 	width: 100%;
 	height: 80px;
 	display: inline-block;
 }
 
 .socialmedia {
-	color: #FFFFFF;
-	font-size: larger;
+	color: rgba(0, 0, 0, 0.283);
+	font-size: medium;
 	margin-left: 15px;
 }
 
+a > 
 span {
     color: #FFFFFF;
 }

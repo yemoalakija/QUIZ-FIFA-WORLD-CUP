@@ -5,44 +5,41 @@
 # QUIZ- FIFA WORLD CUP
 
 <a href ="#about-this-website">ABOUT THIS WEBSITE</a>
+
 <a href ="#features">FEATURES</a>
 
+<a href ="#main-page">Main page</a>
 
-#### 1. Main page
+<a href ="#future-features">Future Features</a>
 
-### Future Features
+<a href ="#testing">TESTING</a>
 
-## TESTING
+<a href ="#lighthouse-testing">Lighthouse Testing</a>
 
-### Lighthouse Testing
+<a href ="#validator-testing">Validator Testing</a>
 
-### Validator Testing 
+<a href ="#responsiveness-test">Responsiveness Test</a>
 
-### Responsiveness Test
+<a href ="#browser-compatibility">Browser Compatibility</a>
 
-### Browser Compatibility
+<a href ="#fixed-bugs">Fixed Bugs</a>
 
-### Fixed Bugs
+<a href ="#technologies-used">TECHNOLOGIES USED</a>
 
-## TECHNOLOGIES USED
+<a href ="#deployment">DEPLOYMENT</a>
 
-## DEPLOYMENT
+<a href ="#### how-to-create-a-local-clone-of-this-project
+"></a>
 
-### How to create a local clone of this project
+<a href ="#credit">CREDIT</a>
 
-## CREDIT
+<a href ="#content">Content</a>
 
-#### Content
+<a href ="#media">Media</a>
 
-#### Media 
+<a href ="#footer">Footer</a>
 
-### Footer 
-
-## ACKNOWLEDGEMENT 
-
----
-
----
+<a href ="#acknowledgement">ACKNOWLEDGEMENT</a>
 
 ---
 

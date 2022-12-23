@@ -4,7 +4,7 @@
 
 # QUIZ- FIFA WORLD CUP
 
-<a href ="##ABOUT-THIS-WEBSITE">ABOUT THIS WEBSITE</a>
+<a href ="##about-this-website">ABOUT THIS WEBSITE</a>
 
 ## FEATURES
 

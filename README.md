@@ -6,38 +6,37 @@
 
 2. <a href ="#features">FEATURES</a>
 
-<a href ="#front-page">Front Page</a>
+    <a href ="#front-page">Front Page</a>
 
-<a href ="#quiz-pages">Quiz Pages</a>
+    <a href ="#quiz-pages">Quiz Pages</a>
 
-<a href ="#future-features">Future Features</a>
+    <a href ="#future-features">Future Features</a>
 
 3. <a href ="#testing">TESTING</a>
 
-<a href ="#lighthouse-testing">Lighthouse Testing</a>
+    <a href ="#lighthouse-testing">Lighthouse Testing</a>
 
-<a href ="#validator-testing">Validator Testing</a>
+    <a href ="#validator-testing">Validator Testing</a>
 
-<a href ="#responsiveness-test">Responsiveness Test</a>
+    <a href ="#responsiveness-test">Responsiveness Test</a>
 
-<a href ="#browser-compatibility">Browser Compatibility</a>
+    <a href ="#browser-compatibility">Browser Compatibility</a>
 
-<a href ="#fixed-bugs">Fixed Bugs</a>
+    <a href ="#fixed-bugs">Fixed Bugs</a>
 
 4. <a href ="#technologies-used">TECHNOLOGIES USED</a>
 
 5. <a href ="#deployment">DEPLOYMENT</a>
 
-<a href ="#### how-to-create-a-local-clone-of-this-project
-"></a>
+    <a href ="#### how-to-create-a-local-clone-of-this-project"></a>
 
 6. <a href ="#credit">CREDIT</a>
 
-<a href ="#content">Content</a>
+    <a href ="#content">Content</a>
 
-<a href ="#media">Media</a>
+    <a href ="#media">Media</a>
 
-<a href ="#footer">Footer</a>
+    <a href ="#footer">Footer</a>
 
 7. <a href ="#acknowledgement">ACKNOWLEDGEMENT</a>
 

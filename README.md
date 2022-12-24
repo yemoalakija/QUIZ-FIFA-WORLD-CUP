@@ -153,58 +153,33 @@ Specific contents and media (including photos and videos) were sourced from vari
 
 #### Content
 
-- [Britannica](https://www.britannica.com/biography/Michael-Jordan)
+- [Kwizzbit](https://kwizzbit.com/fifa-world-cup-quiz-questions-and-answers/)
 
-- [Wikipedia](https://en.wikipedia.org/wiki/Michael_Jordan)
+- [UNB](https://unb.com.bd/category/Sports/is-the-fifa-football-world-cup-trophy-made-of-solid-gold/103291)
 
-- [Google Search About Michael Jordan](https://www.google.com/search?q=about+michael+jordan+&biw=1280&bih=512&ei=folmY8LkNZCEhbIPwfSVwAE&ved=0ahUKEwjCm5G8tZf7AhUQQkEAHUF6BRg4HhDh1QMIDw&uact=5&oq=about+michael+jordan+&gs_lcp=Cgxnd3Mtd2l6LXNlcnAQAzIFCAAQgAQyBQgAEIAEMgUIABCABDIFCAAQgAQyBggAEBYQHjIGCAAQFhAeMgYIABAWEB4yBggAEBYQHjIGCAAQFhAeMgYIABAWEB46CggAEEcQ1gQQsAM6BQghEKABOggIIRAWEB4QHToFCAAQhgM6CAgAEBYQHhAKSgQIQRgASgQIRhgAUOkEWJMXYM4baAFwAXgAgAGQAYgB_QmSAQM4LjWYAQCgAQHIAQjAAQE&sclient=gws-wiz-serp)
+- [WorldFlags Direct](https://www.worldflagsdirect.com/worldcup2022.html)
+
+- [Teachwire](https://www.teachwire.net/news/fifa-world-cup-football-lesson-plans-resources-ideas/)
+
+- [Wikipedia](https://en.m.wikipedia.org/wiki/File:FIFA_logo_without_slogan.svg)
+
+- [Font Awesome](https://fontawesome.com/)
 
 #### Media 
 
-- [Sunday Observer](https://www.sundayobserver.lk/2022/10/16/sports/michael-jordan-irresistible-irreplaceable-magician-all-time)
+- [Youtube](https://www.youtube.com/watch?v=0zIdoBvkiRk)
 
-- [Diffen](https://www.diffen.com/difference/Kobe_Bryant_vs_Michael_Jordan)
+- [Twitter](https://mobile.twitter.com/i/events/1596100698092888065)
+
+- [Facebook](https://www.facebook.com/watch/?v=1196866764271036)
 
 
 ### Footer 
 
-The footer showcases on all 3 pages. This clickable opens a new page to a Youtube video about The Best of Michael Jordan's playoff games. [Youtube -Footer](https://www.youtube.com/watch?v=cuLprHh_BRg)
+The footer has clickable social media icons links including Youtube, Twitter and Facebook. These all open external pages for the user to enjoying watching some great World Cup goals. 
 
 
 ## ACKNOWLEDGEMENT 
 
-This website was completed in accordance with the criteria for Portfolio 1 Project of The Full Stack Software Developer Diploma at the Code Institute. My special gratitude goes to everyone that has made this project successful including my mentor Precious Ijege, the Slack community (particularly Shaun Buck and Kera Cudmore) and the entire Code Institute for their support and assistance. 
-
-CONTENT 
-
-https://kwizzbit.com/fifa-world-cup-quiz-questions-and-answers/
-
-
-
-IMAGES
-
-WCTROPHY
-https://unb.com.bd/category/Sports/is-the-fifa-football-world-cup-trophy-made-of-solid-gold/103291
-
-BALLFLAG
-https://www.worldflagsdirect.com/worldcup2022.html
-
-BOOTFLAG
-https://www.teachwire.net/news/fifa-world-cup-football-lesson-plans-resources-ideas/
-
-fifalogo
-https://en.m.wikipedia.org/wiki/File:FIFA_logo_without_slogan.svg
-
-footericon
-https://fontawesome.com/
-
-
-
-VIDEO 
-
-Great GOALS at FFIA WC 2022
-https://www.youtube.com/watch?v=0zIdoBvkiRk
-https://mobile.twitter.com/i/events/1596100698092888065
-https://www.facebook.com/watch/?v=1196866764271036
-
+This website was completed in accordance with the criteria for Portfolio 2 Project of The Full Stack Software Developer Diploma at the Code Institute. My special gratitude goes to everyone that has made this project successful including my mentor Precious Ijege, the Slack community and the entire Code Institute for their support and assistance. 
 

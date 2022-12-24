@@ -2,9 +2,9 @@
 
 # TABLE OF CONTENT
 
-<a href ="#about-this-website">ABOUT THIS WEBSITE</a>
+1. <a href ="#about-this-website">ABOUT THIS WEBSITE</a>
 
-<a href ="#features">FEATURES</a>
+2. <a href ="#features">FEATURES</a>
 
 <a href ="#front-page">Front Page</a>
 
@@ -12,7 +12,7 @@
 
 <a href ="#future-features">Future Features</a>
 
-<a href ="#testing">TESTING</a>
+3. <a href ="#testing">TESTING</a>
 
 <a href ="#lighthouse-testing">Lighthouse Testing</a>
 
@@ -24,14 +24,14 @@
 
 <a href ="#fixed-bugs">Fixed Bugs</a>
 
-<a href ="#technologies-used">TECHNOLOGIES USED</a>
+4. <a href ="#technologies-used">TECHNOLOGIES USED</a>
 
-<a href ="#deployment">DEPLOYMENT</a>
+5. <a href ="#deployment">DEPLOYMENT</a>
 
 <a href ="#### how-to-create-a-local-clone-of-this-project
 "></a>
 
-<a href ="#credit">CREDIT</a>
+6. <a href ="#credit">CREDIT</a>
 
 <a href ="#content">Content</a>
 
@@ -39,7 +39,7 @@
 
 <a href ="#footer">Footer</a>
 
-<a href ="#acknowledgement">ACKNOWLEDGEMENT</a>
+7. <a href ="#acknowledgement">ACKNOWLEDGEMENT</a>
 
 ---
 

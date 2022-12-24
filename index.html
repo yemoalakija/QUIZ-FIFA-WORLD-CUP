@@ -28,9 +28,9 @@
     <div class="container">
       <div class="heading">
         <a href="#home.html" class="jumbotron display-4 fifa-head"
-          >QUIZ FIFA WORLD CUP</a
-        >
+          >QUIZ FIFA WORLD CUP</a>
       </div>
+      
       <div class="container section">
         <div class="row">
           <div style="margin-left: 0px" class="col s12 l6 offset-l3">
@@ -38,7 +38,7 @@
               <h4 class="center-align white-text">Contestant Name:</h4>
               <div class="input-field">
                 <input type="text" class="white-text" id="name" />
-                <label for="name">Name Here</label>
+                <label for="name">Your Name</label>
                 <p class="center">
                   <button
                     type="submit"
@@ -59,4 +59,43 @@
         </div>
       </div>
       <div>
+        <a
+          href="https://mobile.twitter.com/i/events/1596100698092888065"
+          ;
+          target="_blank"
+          ><i class="social-icons bi bi-twitter text-primary mx-1"></i
+        ></a>
+        <a
+          href="https://www.facebook.com/watch/?v=1196866764271036"
+          ;
+          target="_blank"
+          ><i class="social-icons bi bi-facebook text-primary mx-1"></i
+        ></a>
+        <a href="https://www.youtube.com/watch?v=0zIdoBvkiRk" ; target="_blank"
+          ><i class="social-icons bi bi-youtube text-primary mx-1"></i
+        ></a>
+      </div>
+    </div>
+
+    <!-- JavaScript files-->
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+      integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js"
+      integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script>
+      function submitted(e) {
+        e.preventDefault();
+
+        let name = document.forms["id"]["name"].value;
+        sessionStorage.setItem("name", name);
+      }
+    </script>
+  </body>
   </html>

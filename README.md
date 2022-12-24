@@ -2,8 +2,6 @@
 
 # TABLE OF CONTENT
 
-# QUIZ- FIFA WORLD CUP
-
 <a href ="#about-this-website">ABOUT THIS WEBSITE</a>
 
 <a href ="#features">FEATURES</a>
@@ -51,9 +49,9 @@
 
 ## ABOUT THIS WEBSITE
 
-This website profiles the legendary NBA Basketball athlete, Michael Jordan and highlights his milestone achievements while playing for The Chicago Bulls Basketball Team. 
+This website is an interactive quiz for users to score themselves on their knowledge of the FIFA World Cup. There are only 10 historic questions, with each question have 2 wrong answers and 1 correct answer. Upon completion of the quiz, there is a submit button which returns the the users' score out of a possible 10 points.  
 
-Here is the link to the website: [Michael Jordan at The Chicago Bulls](https://yemoalakija.github.io/Michael-Jordan-The-Chicago-Bulls-/)
+Here is the link to the website: [QUIZ - FIFA WORLD CUP]( https://yemoalakija.github.io/QUIZ-FIFA-WORLD-CUP/)
 
 
 ![mediascreensizes](assets/images/Screenshot%20-%20Media-sizes.png)
@@ -61,27 +59,21 @@ Here is the link to the website: [Michael Jordan at The Chicago Bulls](https://y
 
 ## FEATURES
 
-The website is very user friendly and responsive of effective navigation purposes. These include three (3) navigation bar links at the top right corner of each page namely:
-
-1. Main page
-
-These features enable the user to comfortably navigate from page to page using all devices including mobile, ipads, laptops and desktops computers. The above mentioned navigation buttons are also have hover effects whenever the cursor is on either.
-Each navigation button is also highlighted in red whenever the user in on a current page which facilitates user experience.  
+The website is very user friendly and responsive with high quality HTML, CSS and JavaScript features. These features enable the user to comfortably access the quiz using all devices including mobile, ipads, laptops and desktops computers. 
 
 #### 1. Main page
 
-This page details Michael Jordan's biography in brief bullet points to cature the attention of the reader at a glance. It also mentions his background in his basketball career. 
-There is also an overlay effect on his name "Michael Jordan" in the header section. 
+The website has only 1 main page for the quiz. This page has images on the right that reference the FIFA World Cup such as flags of countries, the World Cup trophy, football boots and The FIFA logo. 
 
 
 ![mainpage](assets/images/Screenshot%20-%20Home.png)
 
 
-ALL 3 naviagtion pages have a footer section at the bottom. This is a Youtube socia media link which can be clicked to watch "The Best of Michael Jordan's playoff games"
+This page also has a footer section at the bottom. These socia media links including Youtube, Twitter and Facebook. Here users can watch some great World Cup goals.
 
 ### Future Features
 
-Additional features in the near future shall include information on Michael Jordan's charity programmes and merchandizing. 
+Additional features in the near future shall include more quiz on the just-concluded FIFA World Cup 2022 hosted by Qatar. 
 
 ## TESTING
 
@@ -114,15 +106,12 @@ The following devices were all tested and passed: Desktop 15-24", Galaxy S5-S7, 
 
 ### Browser Compatibility
 
-The Michael Jordan at The Chicago Bulls website was succcesfully tested on the following browsers and there no errors found. Google Chrome, Microsoft Edge and Mozilla Firefox. Responsiveness were consistent on all above mentioned browsers and devices.
+This website was succcesfully tested on the following browsers and there no errors found. Google Chrome, Microsoft Edge and Mozilla Firefox. Responsiveness were consistent on all above mentioned browsers and devices.
 
 ### Fixed Bugs
 
-There was 1 pattern of errors found in <img scr> of home page on lines 68, 69 and 70. The 3 errors as stated on Validator W3 checker states as follows:
-"Error: Bad value assets/images/MJ smiling.jpg for attribute src on element img: Illegal character in path segment: space is not allowed.
-From line 68, column 4; to line 68, column 60"
+????????????????????????????
 
-This was successfully fixed by renaming all affected image file names and editing without spaces. 
 
 ## TECHNOLOGIES USED
 
@@ -142,7 +131,7 @@ The website was deployed to GitHub pages. The steps to deploy are as follows:
 - Enter the GitHub repository and navigate to the Settings tab
 - In the source section, select the Master Branch
 
-Here is the live link: - [Michael Jordan at The Chicago Bulls](https://yemoalakija.github.io/Michael-Jordan-The-Chicago-Bulls-/)
+Here is the live link: - [QUIZ - FIFA WORLD CUP]( https://yemoalakija.github.io/QUIZ-FIFA-WORLD-CUP/)
 
 ### How to create a local clone of this project
 

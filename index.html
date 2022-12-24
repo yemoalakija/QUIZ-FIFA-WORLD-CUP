@@ -24,4 +24,39 @@
     <title>QUIZ FIFA WORLD CUP</title>
   </head>
 
+  <body>
+    <div class="container">
+      <div class="heading">
+        <a href="#home.html" class="jumbotron display-4 fifa-head"
+          >QUIZ FIFA WORLD CUP</a
+        >
+      </div>
+      <div class="container section">
+        <div class="row">
+          <div style="margin-left: 0px" class="col s12 l6 offset-l3">
+            <form class="myform" name="id" onsubmit="submitted(event)">
+              <h4 class="center-align white-text">Contestant Name:</h4>
+              <div class="input-field">
+                <input type="text" class="white-text" id="name" />
+                <label for="name">Name Here</label>
+                <p class="center">
+                  <button
+                    type="submit"
+                    class="btn btn-lg btn-primary"
+                    onclick="this.style.display='none'"
+                  >
+                    Submit Name
+                  </button>
+                </p>
+              </div>
+              <p class="center">
+                <a href="quiz.html" type="button" class="btn btn-lg btn-primary"
+                  >Start Quiz</a
+                >
+              </p>
+            </form>
+          </div>
+        </div>
+      </div>
+      <div>
   </html>

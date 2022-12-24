@@ -6,7 +6,9 @@
 
 <a href ="#features">FEATURES</a>
 
-<a href ="#main-page">Main page</a>
+<a href ="#front-page">Front Page</a>
+
+<a href ="#quiz-pages">Quiz Pages</a>
 
 <a href ="#future-features">Future Features</a>
 
@@ -61,15 +63,17 @@ Here is the link to the website: [QUIZ - FIFA WORLD CUP]( https://yemoalakija.gi
 
 The website is very user friendly and responsive with high quality HTML, CSS and JavaScript features. These features enable the user to comfortably access the quiz using all devices including mobile, ipads, laptops and desktops computers. 
 
-#### 1. Main page
+#### 1. Front Page
 
-The website has only 1 main page for the quiz. This page has images on the right that reference the FIFA World Cup such as flags of countries, the World Cup trophy, football boots and The FIFA logo. 
-
+The Front Page of this website has a backgroung photo of The FIFA World Cup and it's interactive for the site user (or contestant) to input USERNAME and START the quiz.  
+This page also has a footer section at the bottom. These socia media links including Youtube, Twitter and Facebook. Here users can watch some great World Cup goals.
 
 ![mainpage](assets/images/Screenshot%20-%20Home.png)
 
 
-This page also has a footer section at the bottom. These socia media links including Youtube, Twitter and Facebook. Here users can watch some great World Cup goals.
+#### 1. Quiz Pages
+
+After clicking the "START QUIZ" button, the next page opens up to start the quiz. The contestant or player can start playing the quiz and will receive quiz-results at the end. There is also a "Back-Home" button to return to the Front Page or Start. 
 
 ### Future Features
 
@@ -163,7 +167,7 @@ Specific contents and media (including photos and videos) were sourced from vari
 
 - [Wikipedia](https://en.m.wikipedia.org/wiki/File:FIFA_logo_without_slogan.svg)
 
-- [Font Awesome](https://fontawesome.com/)
+- [Bootstrap](https://getbootstrap.com/)
 
 #### Media 
 
@@ -176,7 +180,7 @@ Specific contents and media (including photos and videos) were sourced from vari
 
 ### Footer 
 
-The footer has clickable social media icons links including Youtube, Twitter and Facebook. These all open external pages for the user to enjoying watching some great World Cup goals. 
+The footer is benefit the Front Page and has clickable social media icons links including Youtube, Twitter and Facebook. These all open external pages for the user to enjoying watching some great World Cup goals. 
 
 
 ## ACKNOWLEDGEMENT 

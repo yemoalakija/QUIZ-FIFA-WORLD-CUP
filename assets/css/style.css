@@ -1,6 +1,7 @@
 * {
 	box-sizing: border-box;
 }
+
 body {
 	background-image: url("/assets/images/WCTROPHY.png");
 	background-repeat: no-repeat;
@@ -11,7 +12,25 @@ body {
 	height: 100vh;
 	overflow: hidden;
 	margin: 0;
-}
+
+  
+
+        /* animates zoom effect on loading page */
+        animation-name: body;
+        animation-duration: 6s; 
+        animation-fill-mode: forwards;
+    }
+        
+        /* creates the level zoom for hero image*/
+        @keyframes body {
+            from{
+                transform: scale(1);
+            }
+            to{
+                transform: scale(1.2);
+            }
+    }
+    
 .container {
 	background-color: #fff;
 	background: rgba(255, 254, 254, 0.4);
@@ -27,28 +46,4 @@ body {
 .container section {
 	width: 300px;
 	margin-left: 0px;
-
-body {
-    color:#FFFFFF;
-    margin-left: 50px;
-    text-align: center;
 }
-
-body {
-
-    /* animates zoom effect on loading page */
-    animation-name: h1;
-    animation-duration: 6s; 
-    animation-fill-mode: forwards;
-    }
-    
-    /* creates the level zoom for hero image*/
-    @keyframes h1 {
-        from{
-            transform: scale(1);
-        }
-        to{
-            transform: scale(1.2);
-        }
-    }
-

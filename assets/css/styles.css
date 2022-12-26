@@ -17,7 +17,7 @@ body {
 
         /* animates zoom effect on loading page */
         animation-name: body;
-        animation-duration: 6s; 
+        animation-duration: 5s; 
         animation-fill-mode: forwards;
     }
         
@@ -27,7 +27,7 @@ body {
                 transform: scale(1);
             }
             to{
-                transform: scale(1.2);
+                transform: scale(1.1);
             }
     }
     

@@ -182,6 +182,11 @@ Specific contents and media (including photos and videos) were sourced from vari
 
 - [Favicon](https://favicon.io/)
 
+- [Cloud Flare](https://www.cloudflare.com/)
+
+
+)
+
 #### Media 
 
 - [Youtube](https://www.youtube.com/watch?v=0zIdoBvkiRk)

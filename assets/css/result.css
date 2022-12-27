@@ -37,3 +37,15 @@ body {
 	z-index: 1;
 }
 
+.quiz_user {
+	display: flex;
+	align-items: center;
+	height: 100%;
+	padding-left: 30px;
+}
+.quiz_body {
+	padding: 20px 30px;
+	background-color: #fff;
+	background: rgba(255, 254, 254, 0.4);
+}
+

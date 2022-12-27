@@ -43,9 +43,29 @@ body {
 	height: 100%;
 	padding-left: 30px;
 }
+
 .quiz_body {
 	padding: 20px 30px;
 	background-color: #fff;
 	background: rgba(255, 254, 254, 0.4);
 }
 
+.option {
+	display: block;
+	width: 300px;
+	background-color: #fff;
+	margin-bottom: 20px;
+	padding: 15px 20px;
+	border-radius: 50px;
+	border: 2px solid transparent;
+	transition: 0.4s all;
+}
+.option:hover {
+	cursor: pointer;
+	border: 2px solid #0d6efd;
+	color: #368796;
+}
+.option.active {
+	background-color: #b5b7b8;
+	color: #fff;
+}

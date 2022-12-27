@@ -148,9 +148,21 @@ Acces Github and follow below instructions:
 
 ## CREDIT
 
-In general, inspiration for this website was taken from The Love Running website of the Code Institute course [Love Running](https://yemoalakija.github.io/love-running-/).
+- Code Institute course modules 
 
-Inspiration for the layout on this website's README file came from [Wawas Wood](https://github.com/EwanColquhoun/wawaswoods) and [Love Running](https://github.com/Code-Institute-Solutions/readme-template)
+- Inspiration on html and css application for this website was taken from The Love Running website of the Code Institute course [Love Running](https://yemoalakija.github.io/love-running-/).
+
+- Inspiration on structure of a quiz and some javascript application was taken from the following websites:
+[Mate Quiz](https://www.matequiz.com/)
+[Lovatts](https://lovattspuzzles.com/)
+[[Coding Ninjas](https://www.codingninjas.com/codestudio/library/how-to-create-a-quiz-app-using-javascript)
+
+- Inspiration for the layout on this website's README file came from [Wawas Wood](https://github.com/EwanColquhoun/wawaswoods) and [Love Running](https://github.com/Code-Institute-Solutions/readme-template)
+
+- [W3Schools](https://www.w3schools.com/)
+
+- [stackoverflow](https://stackoverflow.com)
+
 
 Specific contents and media (including photos and videos) were sourced from various websites as referenced below at the clickable links: 
 
@@ -167,6 +179,8 @@ Specific contents and media (including photos and videos) were sourced from vari
 - [Wikipedia](https://en.m.wikipedia.org/wiki/File:FIFA_logo_without_slogan.svg)
 
 - [Bootstrap](https://getbootstrap.com/)
+
+- [Favicon](https://favicon.io/)
 
 #### Media 
 

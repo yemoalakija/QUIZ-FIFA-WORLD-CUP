@@ -12,8 +12,7 @@ body {
 	height: 100vh;
 	overflow: hidden;
 	margin: 0;
-
-  
+	 
 
         /* animates zoom effect on loading page */
         animation-name: body;
@@ -30,7 +29,12 @@ body {
                 transform: scale(1.1);
             }
     }
-    
+
+#bg-color {
+	background-color: aquamarine;
+
+	}
+	
 .container {
 	background-color: #fff;
 	background: rgba(255, 254, 254, 0.4);

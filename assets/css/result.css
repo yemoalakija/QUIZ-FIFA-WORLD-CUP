@@ -12,6 +12,7 @@ body {
 	height: 100vh;
 	overflow: hidden;
 	margin: 0;
+	background-color: yellow;
 }
 .wrapper {
 	display: flex;
@@ -68,4 +69,40 @@ body {
 .option.active {
 	background-color: #b5b7b8;
 	color: #fff;
+}
+
+img {
+	width: 600px;
+	opacity: 50%;
+	right: 0px;
+	bottom: 0px;
+	position: absolute;
+}
+.username,
+.userpoints {
+	color: rgb(15, 165, 65);
+	text-align: center;
+	margin-top: 15px;
+}
+.your-p {
+	color: rgb(145, 194, 72);
+}
+.your-n {
+	font-size: 50px;
+	color: rgb(15, 197, 85);
+}
+.border {
+	height: 500px;
+	width: 500px;
+	display: block;
+	justify-content: center;
+	margin: 0px 400px;
+	border-radius: 10px;
+	top: 100px;
+	border-color: transparent;
+}
+@media screen and (max-width: 1084px) {
+	body {
+		background-image: none;
+	}
 }

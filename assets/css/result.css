@@ -16,10 +16,11 @@ body {
 }
 .wrapper {
 	display: flex;
-	justify-content: center;
+	justify-content: right;
 	align-items: center;
 	width: 100vw;
 	height: 100vh;
+	margin-right: 70px;
 }
 .quiz {
 	display: grid;
@@ -80,16 +81,25 @@ img {
 }
 .username,
 .userpoints {
-	color: rgb(15, 165, 65);
+	color: blue;
 	text-align: center;
 	margin-top: 15px;
+	margin-left: 175px;
 }
 .your-p {
-	color: rgb(145, 194, 72);
+	color: black;
+	font-weight: bolder;
+	font-size: xx-large;
 }
 .your-n {
 	font-size: 50px;
 	color: rgb(15, 197, 85);
+}
+
+p > span {
+	color: black;
+	font-weight: bolder;
+	font-size: xx-large;
 }
 .border {
 	height: 500px;

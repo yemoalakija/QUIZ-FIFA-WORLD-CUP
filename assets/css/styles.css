@@ -34,7 +34,7 @@ body {
 	background-color: aquamarine;
 
 	}
-	
+
 .container {
 	background-color: #fff;
 	background: rgba(255, 254, 254, 0.4);
@@ -46,6 +46,7 @@ body {
 	justify-content: center;
 	align-items: center;
 	margin-left: 0;
+	margin-top: 50px;
 }
 .container section {
 	width: 300px;

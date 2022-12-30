@@ -67,3 +67,15 @@ body {
 P {
 	padding: 8px;
 }
+
+/* For small screen size from 412px wide and down */
+
+@media screen and (max-width: 412px) {
+
+	
+	body {
+		width: 412px;
+		height: 914px;
+	}
+
+}

@@ -5,13 +5,13 @@
 }
 body {
 	background-image: url("/assets/images/BALLFLAG.png");
-	background-repeat: no-repeat;
-	display: flex;
+	background-repeat: no-repeat; 
+	display: grid;
 	align-items: center;
-	justify-content: center;
 	height: 100vh;
-	overflow: hidden;
-	margin: 0;
+	justify-content: center;
+	overflow: auto;
+	margin: 25px;
 	background-color: yellow;
 }
 .wrapper {
@@ -111,8 +111,23 @@ p > span {
 	top: 100px;
 	border-color: transparent;
 }
-@media screen and (max-width: 1084px) {
+@media screen and (max-width: 415px) {
 	body {
 		background-image: none;
 	}
+}
+
+/* For small screen size from 412px wide and down */
+
+@media screen and (max-width: 412px) {
+
+	
+	body {
+		width: 412px;
+		height: 914px;
+	}
+
+	background-image: {
+		width: 50%;
+	};
 }

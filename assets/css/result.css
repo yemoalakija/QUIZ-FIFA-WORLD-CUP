@@ -4,23 +4,25 @@
 	box-sizing: border-box;
 }
 body {
-	background-image: url("/assets/images/BALLFLAG.png");
-	background-repeat: no-repeat; 
-	display: grid;
-	align-items: center;
-	height: 100vh;
-	justify-content: center;
-	overflow: auto;
-	margin: 25px;
+
 	background-color: yellow;
 }
+
+.background-ball {
+	margin-right: 55%;
+	margin-top: 60%;
+	height: 100%;
+	width: 50%;
+}
+
 .wrapper {
 	display: flex;
 	justify-content: right;
+	float: right;
 	align-items: center;
 	width: 100vw;
 	height: 100vh;
-	margin-right: 70px;
+	margin-right: 30px;
 }
 .quiz {
 	display: grid;
@@ -127,7 +129,9 @@ p > span {
 		height: 914px;
 	}
 
-	background-image: {
+	.background-ball {
 		width: 50%;
-	};
+		height: 50%;
+	}
+	
 }

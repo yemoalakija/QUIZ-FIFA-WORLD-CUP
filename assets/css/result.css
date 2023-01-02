@@ -2,23 +2,30 @@
 	padding: 0;
 	margin: 0;
 	box-sizing: border-box;
+	
 }
-body {
-
-	background-color: yellow;
+#bodyframe {
+	
+	background-color: yellowgreen;
+	background-size: 100%;
+	overflow: hidden;
+	
 }
 
 .background-ball {
 	margin-right: 55%;
-	margin-top: 60%;
-	height: 100%;
-	width: 50%;
+	height: 50%;
+	width: 15%;
+	float: right;
+	margin-bottom: 100px;
+
+
 }
 
 .wrapper {
-	display: flex;
-	justify-content: right;
-	float: right;
+	
+	justify-content: left;
+	float: left;
 	align-items: center;
 	width: 100vw;
 	height: 100vh;
@@ -28,16 +35,12 @@ body {
 	display: grid;
 	grid-template-rows: 60px auto;
 	width: 600px;
-	height: 500px;
+	height: 550px;
 	border-radius: 50px;
+
 }
 .quiz_header {
 	display: flex;
-	justify-content: space-between;
-	border-bottom-left-radius: 3px;
-	border-bottom-right-radius: 3px;
-	background-color: #fff;
-	box-shadow: 0px 2px 5px 1px rgba(0, 0, 0, 0.1);
 	z-index: 1;
 }
 
@@ -103,35 +106,49 @@ p > span {
 	font-weight: bolder;
 	font-size: xx-large;
 }
+
 .border {
-	height: 500px;
-	width: 500px;
-	display: block;
-	justify-content: center;
-	margin: 0px 400px;
-	border-radius: 10px;
-	top: 100px;
-	border-color: transparent;
-}
-@media screen and (max-width: 415px) {
-	body {
-		background-image: none;
-	}
+
+height: 500px;
+width: 500px;
+margin: 0%;
+	
 }
 
-/* For small screen size from 412px wide and down */
+#BOOTFLAG {
+	margin-right: 60%;
+}
 
-@media screen and (max-width: 412px) {
+
+
+/* For small screen size from 360px wide and down */
+
+@media screen and (max-width: 360px) {
 
 	
-	body {
-		width: 412px;
-		height: 914px;
+	#bodyframe {
+		background-size: 360px 740px;
+		height: 740px;
 	}
 
 	.background-ball {
-		width: 50%;
-		height: 50%;
+		margin-bottom: 100px;	
+		margin-right: 100px;
+		
 	}
-	
+
+	h2 {
+		margin-right: 90%;
+		font-size: small;
+	}
+
+	ul {
+		margin-left: -55px;
+		font-size: small;
+	}
+
+	.option {
+		width: 150px;	
+		
+	}
 }

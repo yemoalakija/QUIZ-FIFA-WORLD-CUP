@@ -14,13 +14,13 @@
 	margin: 0;
 	
         /* animates zoom effect on loading page */
-    animation-name: body;
+    animation-name: bg-color;
     animation-duration: 5s; 
     animation-fill-mode: forwards;
     }
         
         /* creates the level zoom for trophy*/
-        @keyframes body {
+        @keyframes bg-color {
             from{
                 transform: scale(1);
             }

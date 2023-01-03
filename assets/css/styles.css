@@ -2,7 +2,7 @@
 	box-sizing: border-box;
 }
 
-body {
+#bg-color {
 	background-image: url(/assets/images/WCTROPHY.png);
 	background-repeat: no-repeat;
 	background-position: center;

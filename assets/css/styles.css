@@ -12,6 +12,21 @@ body {
 	height: 100vh;
 	overflow: hidden;
 	margin: 0;
+	
+        /* animates zoom effect on loading page */
+        animation-name: body;
+        animation-duration: 5s; 
+        animation-fill-mode: forwards;
+    }
+        
+        /* creates the level zoom for hero image*/
+        @keyframes body {
+            from{
+                transform: scale(1);
+            }
+            to{
+                transform: scale(1.1);
+            }
 }
 
 #bg-color {

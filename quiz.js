@@ -64,6 +64,18 @@ const questions = [
       answer: "Morocco",
       options: ["Morocco", "Qatar", "Senegal"],
     },
+    {
+      id: 11,
+      question: "In what year was the first FIFA Women’s World Cup?",
+      answer: "1991",
+      options: ["1991", "1992", "1993"],
+    },
+    {
+      id: 12,
+      question: "Which nation is the only one to top the FIFA World Rankings without ever winning a World Cup?",
+      answer: "Belgium",
+      options: ["France", "Scotland", "Belgium"],
+    },
   ];
 
   let question_count = 0;

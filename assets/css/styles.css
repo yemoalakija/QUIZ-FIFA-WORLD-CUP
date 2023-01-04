@@ -30,12 +30,12 @@ body {
 }
 
 #bg-color {
-	background-color: aquamarine;
+	background-color: #ffffff;
 
 	}
 
 .container {
-	background-color: #fff;
+	background-color: #ffffff;
 	background: rgba(255, 254, 254, 0.4);
 	border-radius: 10px;
 	box-shadow: 0 0 10px 2px rgba(199, 18, 18, 0.1);

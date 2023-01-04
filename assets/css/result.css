@@ -6,7 +6,7 @@
 }
 #bodyframe {
 	
-	background-color: yellowgreen;
+	background-color: #ffffff;
 	background-size: 100%;
 	overflow: hidden;
 	
@@ -30,7 +30,7 @@
 	width: 100vw;
 	height: 100vh;
 	margin-right: 30px;
-	background-color: yellow;
+	background-color: #ffffff;
 }
 .quiz {
 	display: grid;

@@ -9,7 +9,7 @@ body {
 	display: grid;
 	align-items: center;
 	justify-content: center;
-	height: 100;
+	height: 100vh;
 	overflow: hidden;
 	margin: 0;
 
@@ -67,14 +67,15 @@ P {
 	padding: 8px;
 }
 
-/* For small screen size from 412px wide and down */
+/* For small screen size from 360px wide and down */
 
-@media screen and (max-width: 412px) {
+@media screen and (max-width: 360px) {
 
 	
-	body {
-		width: 412px;
-		height: 914px;
+	#bg-color {
+		background-size: 360px 740px;
+		height: 740px;
 	}
 
+	
 }

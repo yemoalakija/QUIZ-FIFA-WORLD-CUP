@@ -149,15 +149,6 @@ Acces Github and follow below instructions:
 
 - Code Institute course modules 
 
-- Inspiration on html and css application for this website was taken from The Love Running website of the Code Institute course [Love Running](https://yemoalakija.github.io/love-running-/).
-
-- Inspiration on structure of a quiz and some javascript application was taken from the following websites:
-[Mate Quiz](https://www.matequiz.com/)
-[Lovatts](https://lovattspuzzles.com/)
-
-NO CODES WERE COPIED FROM ABOVE MENTIONED WEBISTES FOR THIS PROJECT. 
-
-- Inspiration for the layout on this website's README file came from [Wawas Wood](https://github.com/EwanColquhoun/wawaswoods) and [Love Running](https://github.com/Code-Institute-Solutions/readme-template)
 
 - [W3Schools](https://www.w3schools.com/). This was used for general coding know-how. 
 

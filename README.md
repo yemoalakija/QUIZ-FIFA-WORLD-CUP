@@ -34,7 +34,7 @@
 
     <a href ="#content">Content</a>
 
-    <a href ="#mediafooter">Media / Footer</a>
+    <a href ="#footer">Footer</a>
 
 7. <a href ="#acknowledgement">ACKNOWLEDGEMENT</a>
 
@@ -185,15 +185,15 @@ Specific contents and media (including photos and videos) were sourced from vari
 - [Cloud Flare](https://www.cloudflare.com/)
 
 
-#### Media / Footer 
+#### Footer 
 
 The footer is benefit the Front Page and has clickable social media icons links including Youtube, Twitter and Facebook. These all open external pages for the user to enjoying watching some great World Cup goals. 
 
-- [Youtube](https://www.youtube.com/watch?v=0zIdoBvkiRk)
+- [Youtube](https://www.youtube.com/watch?v=0zIdoBvkiRk) - 10 of the best goals from the 2022 World Cup | ITV Sport
 
-- [Twitter](https://mobile.twitter.com/i/events/1596100698092888065)
+- [Twitter](https://mobile.twitter.com/i/events/1596100698092888065) - Best of the 2022 FIFA World Cup Group Stage (Part 2)
 
-- [Facebook](https://www.facebook.com/watch/?v=1196866764271036)
+- [Facebook](https://www.facebook.com/watch/?v=1196866764271036) - An incredible and unforgettable goal 🇦🇷 #FIFAWorldCup | #Qatar2022
 
 
 ## ACKNOWLEDGEMENT 

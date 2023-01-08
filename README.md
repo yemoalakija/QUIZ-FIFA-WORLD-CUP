@@ -34,9 +34,7 @@
 
     <a href ="#content">Content</a>
 
-    <a href ="#media">Media</a>
-
-    <a href ="#footer">Footer</a>
+    <a href ="#mediafooter">Media / Footer</a>
 
 7. <a href ="#acknowledgement">ACKNOWLEDGEMENT</a>
 
@@ -50,7 +48,7 @@
 
 ## ABOUT THIS WEBSITE
 
-This website is an interactive quiz for users to score themselves on their knowledge of the FIFA World Cup. There are only 10 historic questions, with each question have 2 wrong answers and 1 correct answer. Upon completion of the quiz, there is a submit button which returns the the users' score out of a possible 10 points.  
+This website is an interactive quiz for users to score themselves on their knowledge of the FIFA World Cup. There are only 12 historic questions, with each question have 2 wrong answers and 1 correct answer. Upon completion of the quiz, there is a submit button which returns the the users' score out of a possible 12 points.  
 
 Here is the link to the website: [QUIZ - FIFA WORLD CUP]( https://yemoalakija.github.io/QUIZ-FIFA-WORLD-CUP/)
 
@@ -64,7 +62,7 @@ The website is very user friendly and responsive with high quality HTML, CSS and
 
 #### 1. Front Page
 
-The Front Page of this website has a backgroung photo of The FIFA World Cup and it's interactive for the site user (or contestant) to input USERNAME and START the quiz.  
+The Front Page of this website has a backgroung photo of The FIFA World Cup and it's interactive for the site user to input USERNAME, START the quiz and get information about the quiz from the INSTURCTION button. 
 This page also has a footer section at the bottom. These socia media links including Youtube, Twitter and Facebook. Here users can watch some great World Cup goals.
 
 ![mainpage](assets/images/Screenshot%20-%20Home.png)
@@ -72,7 +70,7 @@ This page also has a footer section at the bottom. These socia media links inclu
 
 #### 1. Quiz Pages
 
-After clicking the "START QUIZ" button, the next page opens up to start the quiz. The contestant or player can start playing the quiz and will receive quiz-results at the end. There is also a "Back-Home" button to return to the Front Page or Start. 
+After clicking the "START QUIZ" button, the next page opens up to start the quiz. The player can start playing the quiz and will receive quiz-results at the end. There is also a "Back-Home" button to return to the Front Page or Start. 
 
 ### Future Features
 
@@ -120,6 +118,7 @@ This website was succcesfully tested on the following browsers and there no erro
 
 - HTML5 - provides the structure and content for the website.
 - CSS - provides the styling for the website.
+- Javascript - provides user interactivity on the website.
 - Gitpod - used for deployment the website.
 - Github - used for hosting and editing the website.
 
@@ -155,13 +154,14 @@ Acces Github and follow below instructions:
 - Inspiration on structure of a quiz and some javascript application was taken from the following websites:
 [Mate Quiz](https://www.matequiz.com/)
 [Lovatts](https://lovattspuzzles.com/)
-[[Coding Ninjas](https://www.codingninjas.com/codestudio/library/how-to-create-a-quiz-app-using-javascript)
+
+NO CODES WERE COPIED FROM ABOVE MENTIONED WEBISTES FOR THIS PROJECT. 
 
 - Inspiration for the layout on this website's README file came from [Wawas Wood](https://github.com/EwanColquhoun/wawaswoods) and [Love Running](https://github.com/Code-Institute-Solutions/readme-template)
 
-- [W3Schools](https://www.w3schools.com/)
+- [W3Schools](https://www.w3schools.com/). This was used for general coding know-how. 
 
-- [stackoverflow](https://stackoverflow.com)
+- [stackoverflow](https://stackoverflow.com). This was used for general coding know-how. 
 
 
 Specific contents and media (including photos and videos) were sourced from various websites as referenced below at the clickable links: 
@@ -185,20 +185,15 @@ Specific contents and media (including photos and videos) were sourced from vari
 - [Cloud Flare](https://www.cloudflare.com/)
 
 
-)
+#### Media / Footer 
 
-#### Media 
+The footer is benefit the Front Page and has clickable social media icons links including Youtube, Twitter and Facebook. These all open external pages for the user to enjoying watching some great World Cup goals. 
 
 - [Youtube](https://www.youtube.com/watch?v=0zIdoBvkiRk)
 
 - [Twitter](https://mobile.twitter.com/i/events/1596100698092888065)
 
 - [Facebook](https://www.facebook.com/watch/?v=1196866764271036)
-
-
-### Footer 
-
-The footer is benefit the Front Page and has clickable social media icons links including Youtube, Twitter and Facebook. These all open external pages for the user to enjoying watching some great World Cup goals. 
 
 
 ## ACKNOWLEDGEMENT 

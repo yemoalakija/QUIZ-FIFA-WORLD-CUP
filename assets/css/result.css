@@ -9,7 +9,6 @@
 	background-color: #ffffff;
 	background-size: 100%;
 	overflow: hidden;
-	
 }
 
 .background-ball {
@@ -18,12 +17,9 @@
 	width: 50vh;
 	float: right;
 	margin-bottom: 100px;
-
-
 }
 
 .wrapper {
-	
 	justify-content: left;
 	float: left;
 	align-items: center;
@@ -32,14 +28,15 @@
 	margin-right: 30px;
 	background-color: #ffffff;
 }
+
 .quiz {
 	display: grid;
 	grid-template-rows: 60px auto;
 	width: 600px;
 	height: 550px;
 	border-radius: 50px;
-
 }
+
 .quiz_header {
 	display: flex;
 	z-index: 1;
@@ -51,7 +48,6 @@
 	height: 100%;
 	padding-left: 30px;
 	color: #ffffff;
-	
 }
 
 .quiz_body {
@@ -70,11 +66,13 @@
 	border: 2px solid transparent;
 	transition: 0.4s all;
 }
+
 .option:hover {
 	cursor: pointer;
 	border: 2px solid #0d6efd;
 	color: #368796;
 }
+
 .option.active {
 	background-color: #b5b7b8;
 	color: #fff;
@@ -87,6 +85,7 @@ img {
 	bottom: 0px;
 	position: absolute;
 }
+
 .username,
 .userpoints {
 	color: blue;
@@ -94,11 +93,13 @@ img {
 	margin-top: 15px;
 	margin-left: 175px;
 }
+
 .your-p {
 	color: black;
 	font-weight: bolder;
 	font-size: xx-large;
 }
+
 .your-n {
 	font-size: 50px;
 	color: rgb(15, 197, 85);
@@ -112,23 +113,19 @@ p > span {
 
 .border {
 
-height: 500px;
-width: 500px;
-margin: 0%;
-	
+	height: 500px;
+	width: 500px;
+	margin: 0%;
 }
 
 #BOOTFLAG {
 	margin-right: 60%;
 }
 
-
-
 /* For small screen size from 360px wide and down */
 
 @media screen and (max-width: 360px) {
 
-	
 	#bodyframe {
 		background-size: 360px 740px;
 		height: 740px;

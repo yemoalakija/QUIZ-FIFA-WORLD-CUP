@@ -132,6 +132,6 @@ function next() {
 
 function randomize(){
   let myRandom = questions.length;
-  randomizeQuestions = questions[Math.floor(Math.random() = myRandom)];
+  randomizeQuestions = questions[Math.floor(Math.random() * myRandom)];
   document.getElementById("questions") = randomizeQuestions;
 }

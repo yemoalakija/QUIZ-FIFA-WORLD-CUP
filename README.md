@@ -53,7 +53,7 @@ This website is an interactive quiz for users to score themselves on their knowl
 Here is the link to the website: [QUIZ - FIFA WORLD CUP]( https://yemoalakija.github.io/QUIZ-FIFA-WORLD-CUP/)
 
 
-![mediascreensizes](assets/images/Screenshot%20-%20Media-sizes.png)
+![mediascreensizes](assets/images/Mediascreens.png)
 
 
 ## FEATURES
@@ -65,7 +65,7 @@ The website is very user friendly and responsive with high quality HTML, CSS and
 The Front Page of this website has a backgroung photo of The FIFA World Cup and it's interactive for the site user to input USERNAME, START the quiz and get information about the quiz from the INSTURCTION button. 
 This page also has a footer section at the bottom. These socia media links including Youtube, Twitter and Facebook. Here users can watch some great World Cup goals.
 
-![mainpage](assets/images/Screenshot%20-%20Home.png)
+![homepage]()
 
 
 #### 1. Quiz Pages

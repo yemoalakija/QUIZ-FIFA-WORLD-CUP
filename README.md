@@ -91,12 +91,12 @@ As shown in the picture below, this website passes all criteria including Perfor
 ### Validator Testing 
 
 - HTML
-There were no errors found as seen here: [Validator W3](https://validator.w3.org/nu/?doc=https%3A%2F%2Fyemoalakija.github.io%2FMichael-Jordan-The-Chicago-Bulls-%2F)
+There were no errors found as seen here: [Validator W3](https://validator.w3.org/nu/?doc=https%3A%2F%2Fyemoalakija.github.io%2FQUIZ-FIFA-WORLD-CUP%2F)
 
 ![Validator W3](assets/images/Screenshot%20-%20Validate%20HTML.png)
 
 - CSS (Jigsaw validator)
-There were no errors found as seen here: [Jigsaw W3](https://jigsaw.w3.org/css-validator/validator?uri=+https%3A%2F%2Fyemoalakija.github.io%2FMichael-Jordan-The-Chicago-Bulls-%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
+There were no errors found as seen here: [Jigsaw W3](https://jigsaw.w3.org/css-validator/validator)
 
 ![Jigsaw W3](assets/images/Screenshot%20-%20Jigsaw%20CSS.png)
 
@@ -153,6 +153,10 @@ Acces Github and follow below instructions:
 - [W3Schools](https://www.w3schools.com/). This was used for general coding know-how. 
 
 - [stackoverflow](https://stackoverflow.com). This was used for general coding know-how. 
+
+- [CSSColorExtractor](http://www.css-color-extractor.com/). For website color theme. 
+
+
 
 
 Specific contents and media (including photos and videos) were sourced from various websites as referenced below at the clickable links: 

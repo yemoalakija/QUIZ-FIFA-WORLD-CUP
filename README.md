@@ -12,7 +12,11 @@
 
     <a href ="#future-features">Future Features</a>
 
-3. <a href ="#testing">TESTING</a>
+3. <a href ="#design">DESIGN</a>
+
+    <a href ="#color-theme">Color Theme</a>
+
+4. <a href ="#testing">TESTING</a>
 
     <a href ="#lighthouse-testing">Lighthouse Testing</a>
 
@@ -24,19 +28,19 @@
 
     <a href ="#fixed-bugs">Fixed Bugs</a>
 
-4. <a href ="#technologies-used">TECHNOLOGIES USED</a>
+5. <a href ="#technologies-used">TECHNOLOGIES USED</a>
 
-5. <a href ="#deployment">DEPLOYMENT</a>
+6. <a href ="#deployment">DEPLOYMENT</a>
 
     <a href ="#### how-to-create-a-local-clone-of-this-project"></a>
 
-6. <a href ="#credit">CREDIT</a>
+7. <a href ="#credit">CREDIT</a>
 
     <a href ="#content">Content</a>
 
     <a href ="#footer">Footer</a>
 
-7. <a href ="#acknowledgement">ACKNOWLEDGEMENT</a>
+8. <a href ="#acknowledgement">ACKNOWLEDGEMENT</a>
 
 ---
 
@@ -65,7 +69,7 @@ The website is very user friendly and responsive with high quality HTML, CSS and
 The Front Page of this website has a backgroung photo of The FIFA World Cup and it's interactive for the site user to input USERNAME, START the quiz and get information about the quiz from the INSTURCTION button. 
 This page also has a footer section at the bottom. These socia media links including Youtube, Twitter and Facebook. Here users can watch some great World Cup goals.
 
-![homepage]()
+![homepage](assets/images/Homepage.png)
 
 
 #### 1. Quiz Pages
@@ -76,6 +80,15 @@ After clicking the "START QUIZ" button, the next page opens up to start the quiz
 
 Additional features in the near future shall include more quiz on the just-concluded FIFA World Cup 2022 hosted by Qatar. 
 
+## DESIGN
+
+This design... 
+
+### Color-Theme
+
+![color-theme](assets/images/ColorTheme.png)
+
+
 ## TESTING
 
 This website was tested using Lighthouse Testing and Validator Testing. 
@@ -85,7 +98,7 @@ This website was tested using Lighthouse Testing and Validator Testing.
 As shown in the picture below, this website passes all criteria including Performance, Accessibility, Best Practices and SEO. 
 
 
-![Lighthouse Test](assets/images/Screenshot%20-%20Lighthouse%20test.png)
+![LighthouseTest](assets/images/LighthouseTest.png)
 
 
 ### Validator Testing 
@@ -93,12 +106,12 @@ As shown in the picture below, this website passes all criteria including Perfor
 - HTML
 There were no errors found as seen here: [Validator W3](https://validator.w3.org/nu/?doc=https%3A%2F%2Fyemoalakija.github.io%2FQUIZ-FIFA-WORLD-CUP%2F)
 
-![Validator W3](assets/images/Screenshot%20-%20Validate%20HTML.png)
+![Validator W3](assets/images/HtmlValidator.png)
 
 - CSS (Jigsaw validator)
 There were no errors found as seen here: [Jigsaw W3](https://jigsaw.w3.org/css-validator/validator)
 
-![Jigsaw W3](assets/images/Screenshot%20-%20Jigsaw%20CSS.png)
+![Jigsaw W3](assets/images/JigsawCSSValidator.png)
 
 ### Responsiveness Test
 
@@ -127,7 +140,7 @@ This website was succcesfully tested on the following browsers and there no erro
 The website was deployed to GitHub pages. The steps to deploy are as follows:
 
 
-![Deployment](assets/images/Screenshot%20-%20Deployment.png)
+![Deployment](assets/images/Deployment.png)
 
 
 - Enter the GitHub repository and navigate to the Settings tab

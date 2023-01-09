@@ -12,10 +12,9 @@
 }
 
 .background-ball {
-	margin-right: 55%;
-	height: 50vh;
-	width: 50vh;
-	float: right;
+	margin-right: 65%;
+	height: 40vh;
+	width: 40vh;
 	margin-bottom: 100px;
 }
 
@@ -122,41 +121,55 @@ p > span {
 	margin-right: 60%;
 }
 
-/* For small screen size from 360px wide and down */
+.container {
+	background-color: #ffffff;
+	background: rgba(255, 254, 254, 0.4);
+	border-radius: 10px;
+	box-shadow: 0 0 10px 2px rgba(199, 18, 18, 0.1);
+	width: 500px;
+	overflow: hidden;
+	display: grid;
+	justify-content: center;
+	align-items: center;
+	margin-right: 10%;
+	margin-top: -3px;
+}
 
-@media screen and (max-width: 360px) {
+h2 {
+	font-size: medium;
+}
+
+/* For small screen size from 600px wide and down */
+
+@media screen and (max-width: 600px) {
 
 	#bodyframe {
-		background-size: 360px 740px;
-		height: 740px;
+		background-size: 360px 1200px;
+		height: 1200px;
 	}
 
 	.background-ball {
-		margin-bottom: 200%;	
-		margin-right: 100px;
+		margin-right: 65%;
+		height: 20vh;
+		width: 20vh;
+		margin-top: 50%
 	}
 
+	.container {
+		width: 400px;
+		margin-right: 50%;
+		margin-top: -3px;
+		float: left;
+	}
+
+	#questions {
+		width: 400px;
+		margin-right: 50%;
+		margin-top: -3px;
+		float: left;
+	}
 	h2 {
-		margin-right: 110px;
-		font-size: x-small;
-	}
+		font-size: xx-small;
 
-	ul {
-		margin-left: -55px;
-		font-size: small;
-	}
-
-	.option {
-		width: 150px;	
-	}
-
-	.quiz_body {
-		float: left;
-	}
-
-	.border {
-		float: left;
-		background-size: 360px 740px;
-		height: 740px;
 	}
 }

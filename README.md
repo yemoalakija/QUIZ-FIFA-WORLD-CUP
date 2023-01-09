@@ -28,7 +28,7 @@
 
     <a href ="#browser-compatibility">Browser Compatibility</a>
 
-    <a href ="#fixed-bugs">Fixed Bugs</a>
+    <a href ="#unfixed-bugs">Unfixed Bugs</a>
 
 5. <a href ="#technologies-used">TECHNOLOGIES USED</a>
 
@@ -114,15 +114,22 @@ As shown in the picture below, this website passes all criteria including Perfor
 
 ### Validator Testing 
 
-- HTML
+- HTML Validator 
 There were no errors found as seen here: [Validator W3](https://validator.w3.org/nu/?doc=https%3A%2F%2Fyemoalakija.github.io%2FQUIZ-FIFA-WORLD-CUP%2F)
 
 ![Validator W3](assets/images/HtmlValidator.png)
 
 - CSS (Jigsaw validator)
-There were no errors found as seen here: [Jigsaw W3](https://jigsaw.w3.org/css-validator/validator)
+There were no errors found as seen here: 
 
 ![Jigsaw W3](assets/images/JigsawCSSValidator.png)
+
+- Javascript Test 
+There were 14 warning messages that returned as seen here:
+
+![Jshint](assets/images/JavascriptTest.png)
+
+However this has to the with the version only and does not affect the codes and its performance. 
 
 ### Responsiveness Test
 
@@ -133,9 +140,13 @@ The following devices were all tested and passed: Desktop 15-24", Galaxy S5-S7, 
 
 This website was succcesfully tested on the following browsers and there no errors found. Google Chrome, Microsoft Edge and Mozilla Firefox. Responsiveness were consistent on all above mentioned browsers and devices.
 
-### Fixed Bugs
+### Unfixed Bugs
 
-????????????????????????????
+Added below code to setting.json: 
+    "jshint.options": {
+        "esversions": 6
+    }
+Unfortunately this still does not clear warning message in (https://jshint.com/) i.e "	'let' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz)."
 
 
 ## TECHNOLOGIES USED
@@ -171,15 +182,6 @@ Acces Github and follow below instructions:
 
 ## CREDIT
 
-- Code Institute course modules 
-
-
-- [W3Schools](https://www.w3schools.com/). This was used for general coding know-how. 
-
-- [stackoverflow](https://stackoverflow.com). This was used for general coding know-how. 
-
-- [CSSColorExtractor](http://www.css-color-extractor.com/). For website color theme. 
-
 Specific contents and media (including photos and videos) were sourced from various websites as referenced below at the clickable links: 
 
 #### Content
@@ -200,6 +202,18 @@ Specific contents and media (including photos and videos) were sourced from vari
 
 - [Cloud Flare](https://www.cloudflare.com/)
 
+Others for general use includes: 
+
+- Code Institute course modules 
+
+- [W3Schools](https://www.w3schools.com/). This was used for general coding know-how. 
+
+- [stackoverflow](https://stackoverflow.com). This was used for general coding know-how. 
+
+- [CSSColorExtractor](http://www.css-color-extractor.com/). This was used to extract website color theme. 
+
+- [AmIResponsive?](https://amiresponsive.co.uk/) - This was used to extract website mediascreen sizes. 
+
 
 #### Footer 
 
@@ -214,5 +228,5 @@ The footer is benefit the Front Page and has clickable social media icons links 
 
 ## ACKNOWLEDGEMENT 
 
-This website was completed in accordance with the criteria for Portfolio 2 Project of The Full Stack Software Developer Diploma at the Code Institute. My special gratitude goes to everyone that has made this project successful including my mentor Precious Ijege, the Slack community and the entire Code Institute for their support and assistance. 
+This website was completed in accordance with the criteria for Portfolio 2 Project of The Full Stack Software Developer Diploma at the Code Institute. My special gratitude goes to everyone that has made this project successful including my mentor Precious Ijege, the Slack community, especially Kera Cudmore and Lane-Sawyer Thompson and the entire Code Institute for their support and assistance. 
 

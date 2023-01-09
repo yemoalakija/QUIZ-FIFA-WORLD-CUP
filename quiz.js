@@ -130,8 +130,3 @@ function next() {
   show(question_count);
 }
 
-// function randomize(){
-//   let myRandom = questions.length;
-//   randomizeQuestions = questions[Math.floor(Math.random() * myRandom)];
-//   document.getElementById("questions") = randomizeQuestions;
-// }

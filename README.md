@@ -6,9 +6,11 @@
 
 2. <a href ="#features">FEATURES</a>
 
-    <a href ="#front-page">Front Page</a>
+    <a href ="#home-page">Home Page</a>
 
-    <a href ="#quiz-pages">Quiz Pages</a>
+    <a href ="#quiz-page">Quiz Page</a>
+
+    <a href ="#results-page">Results Page</a>
 
     <a href ="#future-features">Future Features</a>
 
@@ -64,7 +66,7 @@ Here is the link to the website: [QUIZ - FIFA WORLD CUP]( https://yemoalakija.gi
 
 The website is very user friendly and responsive with high quality HTML, CSS and JavaScript features. These features enable the user to comfortably access the quiz using all devices including mobile, ipads, laptops and desktops computers. 
 
-#### 1. Front Page
+#### Home Page
 
 The Front Page of this website has a backgroung photo of The FIFA World Cup and it's interactive for the site user to input USERNAME, START the quiz and get information about the quiz from the INSTURCTION button. 
 This page also has a footer section at the bottom. These socia media links including Youtube, Twitter and Facebook. Here users can watch some great World Cup goals.
@@ -72,9 +74,17 @@ This page also has a footer section at the bottom. These socia media links inclu
 ![homepage](assets/images/Homepage.png)
 
 
-#### 1. Quiz Pages
+#### Quiz Page
 
-After clicking the "START QUIZ" button, the next page opens up to start the quiz. The player can start playing the quiz and will receive quiz-results at the end. There is also a "Back-Home" button to return to the Front Page or Start. 
+After clicking the "START QUIZ" button, the next page opens up to start the quiz. The player can start playing the quiz and will receive quiz-results at the end. 
+
+![Quizpage](assets/images/Quizpage.png)
+
+#### Results Page
+
+On this late page, you will see your result out of 12 questions. There is also a "Back-Home" button to return to the Front Page or Start.
+
+![Resultspage](assets/images/Resultspage.png)
 
 ### Future Features
 
@@ -82,7 +92,8 @@ Additional features in the near future shall include more quiz on the just-concl
 
 ## DESIGN
 
-This design... 
+The design for this website includes image references to The FIFA World Cup which includes The World Cup Trophy, A football with many country flags, and football boots with many country flags. 
+There is also a favicon "FIFA" icon add to the browser display. 
 
 ### Color-Theme
 
@@ -168,9 +179,6 @@ Acces Github and follow below instructions:
 - [stackoverflow](https://stackoverflow.com). This was used for general coding know-how. 
 
 - [CSSColorExtractor](http://www.css-color-extractor.com/). For website color theme. 
-
-
-
 
 Specific contents and media (including photos and videos) were sourced from various websites as referenced below at the clickable links: 
 

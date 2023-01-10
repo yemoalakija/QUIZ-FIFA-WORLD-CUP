@@ -54,7 +54,10 @@
 
 ## ABOUT THIS WEBSITE
 
-This website is an interactive quiz for users to score themselves on their knowledge of the FIFA World Cup. There are only 12 historic questions, with each question have 2 wrong answers and 1 correct answer. Upon completion of the quiz, there is a submit button which returns the the users' score out of a possible 12 points.  
+This website is an interactive quiz for users to score themselves on their knowledge of the FIFA World Cup. There are 12 historical questions, with each question having 2 wrong answers and 1 correct answer. Upon completion of the quiz, the users'score is dispalyed 
+
+
+out of a possible 12 points.  
 
 Here is the link to the website: [QUIZ - FIFA WORLD CUP]( https://yemoalakija.github.io/QUIZ-FIFA-WORLD-CUP/)
 
@@ -68,8 +71,8 @@ The website is very user friendly and responsive with high quality HTML, CSS and
 
 #### Home Page
 
-The Front Page of this website has a backgroung photo of The FIFA World Cup and it's interactive for the site user to input USERNAME, START the quiz and get information about the quiz from the INSTURCTION button. 
-This page also has a footer section at the bottom. These socia media links including Youtube, Twitter and Facebook. Here users can watch some great World Cup goals.
+The Front Page of this website has a background photo of The FIFA World Cup and it's interactive for the site user to input USERNAME, START the quiz and get information about the quiz from the INSTURCTION button. 
+This page also has a footer section at the bottom. There are social media links including Youtube, Twitter and Facebook. Here users can watch some great World Cup goals (see below Footer section of this README for clickable links).
 
 ![homepage](assets/images/Homepage.png)
 
@@ -82,27 +85,28 @@ After clicking the "START QUIZ" button, the next page opens up to start the quiz
 
 #### Results Page
 
-On this late page, you will see your result out of 12 questions. There is also a "Back-Home" button to return to the Front Page or Start.
+On this last page, you will see your result out of 12 questions. There is also a "Back-Home" button to return to the Front Page or Start.
 
 ![Resultspage](assets/images/Resultspage.png)
 
 ### Future Features
 
-Additional features in the near future shall include more quiz on the just-concluded FIFA World Cup 2022 hosted by Qatar. 
+Additional features in the near future shall include more quiz questions on the just-concluded FIFA World Cup 2022 hosted by Qatar. 
 
 ## DESIGN
 
-The design for this website includes image references to The FIFA World Cup which includes The World Cup Trophy, A football with many country flags, and football boots with many country flags. 
-There is also a favicon "FIFA" icon add to the browser display. 
+The design for this website includes image references to The FIFA World Cup which includes The World Cup Trophy, A football with many country flags, and football-boots with many country flags. 
+There is also a favicon "FIFA" icon added to the browser display. 
 
 ### Color-Theme
 
-![color-theme](assets/images/ColorTheme.png)
+The idea of the color theme was to make this website as colorful as possible, thereby caputring as many country flag colors as possible. 
 
+![color-theme](assets/images/ColorTheme.png)
 
 ## TESTING
 
-This website was tested using Lighthouse Testing and Validator Testing. 
+This website was tested using Lighthouse Testing, Validator Testing (HTML and CSS), and JS Hints.  
 
 ### Lighthouse Testing
 
@@ -120,7 +124,7 @@ There were no errors found as seen here: [Validator W3](https://validator.w3.org
 ![Validator W3](assets/images/HtmlValidator.png)
 
 - CSS (Jigsaw validator)
-There were no errors found as seen here: 
+There were no errors found as seen here. Although only manually input CSS codes were tested here. Bootstrap codes were not tested. 
 
 ![Jigsaw W3](assets/images/JigsawCSSValidator.png)
 
@@ -129,7 +133,7 @@ There were 14 warning messages that returned as seen here:
 
 ![Jshint](assets/images/JavascriptTest.png)
 
-However this has to the with the version only and does not affect the codes and its performance. 
+However this error arises from a difference with the version only and does not affect the codes and its performances herein. 
 
 ### Responsiveness Test
 
@@ -142,12 +146,12 @@ This website was succcesfully tested on the following browsers and there no erro
 
 ### Unfixed Bugs
 
-Added below code to setting.json: 
+As mentioned above, the below code was added to setting.json in an attempt to remove this error.
     "jshint.options": {
         "esversions": 6
     }
 Unfortunately this still does not clear warning message in (https://jshint.com/) i.e "	'let' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz)."
-
+Kindly note that this has no negative effect on the codes functionality throughout the website. 
 
 ## TECHNOLOGIES USED
 
@@ -202,7 +206,9 @@ Specific contents and media (including photos and videos) were sourced from vari
 
 - [Cloud Flare](https://www.cloudflare.com/)
 
+
 Others for general use includes: 
+
 
 - Code Institute course modules 
 
@@ -217,7 +223,7 @@ Others for general use includes:
 
 #### Footer 
 
-The footer is benefit the Front Page and has clickable social media icons links including Youtube, Twitter and Facebook. These all open external pages for the user to enjoying watching some great World Cup goals. 
+The footer is beneath the Front Page and has clickable social media icons links including Youtube, Twitter and Facebook. These all open external pages for the user to enjoying watching some great World Cup goals. 
 
 - [Youtube](https://www.youtube.com/watch?v=0zIdoBvkiRk) - 10 of the best goals from the 2022 World Cup | ITV Sport
 
@@ -229,4 +235,6 @@ The footer is benefit the Front Page and has clickable social media icons links 
 ## ACKNOWLEDGEMENT 
 
 This website was completed in accordance with the criteria for Portfolio 2 Project of The Full Stack Software Developer Diploma at the Code Institute. My special gratitude goes to everyone that has made this project successful including my mentor Precious Ijege, the Slack community, especially Kera Cudmore and Lane-Sawyer Thompson and the entire Code Institute for their support and assistance. 
+
+Thank You. 
 

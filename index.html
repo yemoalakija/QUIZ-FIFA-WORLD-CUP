@@ -1,26 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
 	<head>
-		<meta charset="UTF-8" />
-		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
-		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<meta name="description" content="QUIZ ON FIFA WORLD CUP" />
-		<meta name="keywords" content="QUIZ, FIFA, World Cup, Football" />
-		<meta name="author" content="Yemo" />
-		<link rel="icon" href="assets/images/favicon.ico" />
-		<link
-			rel="stylesheet"
-			href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css"
-		/>
-		<link
-			rel="stylesheet"
-			href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"
-		/>
-		<link rel="stylesheet" href="assets/css/styles.css" />
-		<link
-			rel="stylesheet"
-			href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
-		/>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta name="description" content="QUIZ ON FIFA WORLD CUP">
+		<meta name="keywords" content="QUIZ, FIFA, World Cup, Football">
+		<meta name="author" content="Yemo">
+		<link rel="icon" href="assets/images/favicon.ico">
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+		<link rel="stylesheet" href="assets/css/styles.css">
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css">
 		<title>QUIZ FIFA WORLD CUP</title>
 	</head>
 
@@ -28,9 +19,7 @@
 		<main class="container">
 			<header>
 				<div class="heading">
-					<a href="#home.html" class="jumbotron display-4 fifa-head"
-						>QUIZ FIFA WORLD CUP</a
-					>
+					<a href="#home.html" class="jumbotron display-4 fifa-head">QUIZ FIFA WORLD CUP</a>
 				</div>
 			</header>
 
@@ -40,30 +29,73 @@
 						<form class="myform" name="id">
 							<h4 class="center-align white-text">Contestant Name:</h4>
 							<div class="input-field">
-								<input type="text" class="white-text" id="name" required />
+								<input type="text" class="white-text" id="name" required>
 								<label for="name">Name Here</label>
 								<p class="center">
 									<!-- changed to a regular button to prevent form submission -->
 									<button
-										type="button"
-										class="btn btn-lg btn-primary"
-										id="submit-name"
-									>
+										type="button" class="btn btn-lg btn-primary" id="submit-name">
 										Submit Name
 									</button>
 								</p>
 							</div>
 							<p class="center">
-								<a
-									href="quiz.html"
-									type="button"
-									class="btn btn-lg btn-primary"
-									id="start-quiz"
-									disabled
-								>
+								<a href="quiz.html" type="button" class="btn btn-lg btn-primary" id="start-quiz" disabled>
 									Start Quiz
 								</a>
 							</p>
 						</form>
 					</div>
 				</div>
+
+        <!-- Quiz instruction modal: this modal upon clicked it shows the quiz instructions -->
+				<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#quizModal">
+        INSTRUCTIONS
+      </button>
+
+      <!-- Instruction Modal: displays the quiz instruction.
+        There're close buttons to close the modal -->
+      <div class="modal fade" id="quizModal" tabindex="-1" aria-labelledby="quizModalLabel" aria-hidden="false">
+        <div class="modal-dialog modal-dialog-centered">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h1 class="modal-title fs-5" id="quizModalLabel">
+                Quiz Instructions:
+              </h1>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close">
+              </button>
+            </div>
+            <div class="modal-body">
+              <ol>
+                <li>
+                  There are 10 nonsequential questions on FIFA World Cup quiz.
+                </li>
+                <li>
+                  Players are to choose 1 out of 3 possible answers.
+                </li>
+                <li>
+                  Your results shall be displayed at the end of this quiz.
+                </li>
+              </ol>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">
+                Close
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div>
+      <a href="https://mobile.twitter.com/i/events/1596100698092888065"; rel="noopener" target="_blank" aria-label="Twitter">
+        <i class="social-icons bi bi-twitter text-primary mx-1"></i>
+      </a>
+      <a href="https://www.facebook.com/watch/?v=1196866764271036"; rel="noopener" target="_blank" aria-label="Facebook">
+        <i class="social-icons bi bi-facebook text-primary mx-1"></i>
+      </a>
+      <a href="https://www.youtube.com/watch?v=0zIdoBvkiRk"; rel="noopener" target="_blank" aria-label="YouTube">
+        <i class="social-icons bi bi-youtube text-primary mx-1"></i>
+      </a>
+    </div>
+  </main>

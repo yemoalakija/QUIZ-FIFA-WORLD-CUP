@@ -99,3 +99,46 @@
       </a>
     </div>
   </main>
+
+  <!-- JavaScript files-->
+		<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js" integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V" crossorigin="anonymous"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+		<script>
+			// these are references to the elements.
+			const submitNameBtn = document.getElementById("submit-name");
+			const startQuizBtn = document.getElementById("start-quiz");
+			const nameInput = document.getElementById("name");
+
+			// this is a function to store the name in session storage when the form is submitted.
+			function submitted(e) {
+				e.preventDefault();
+				let name = document.forms["id"]["name"].value;
+				sessionStorage.setItem("name", name);
+			}
+
+			// this adds an event listener to the "Submit Name" button.
+			submitNameBtn.addEventListener("click", (event) => {
+				event.preventDefault(); // prevents the button from submitting the form.
+				let name = nameInput.value.trim(); // gets the name fromt the input and remove any leading/trailing whitespace.
+				if (name === "") {
+					// if name field is empty, show an error message and don't submit the form
+					alert("Please enter your name!");
+					return;
+				}
+				submitted(event); // calls the submitted function to store the name.
+				startQuizBtn.removeAttribute("disabled"); // enables the "Start Quiz" button.
+				submitNameBtn.style.display = "none"; // hides the "Submit Name" button when clicked for submission.
+			});
+
+			// this adds an event listener to the "Start Quiz" button.
+			startQuizBtn.addEventListener("click", (event) => {
+				if (nameInput.value.trim() === "") {
+					//checks if the input is empty or just whitespace.
+					event.preventDefault(); // prevents the button from taking the user to the quiz.
+					alert("Please enter your name before starting the quiz!"); // shows an error message.
+				}
+			});
+		</script>
+	</body>
+</html>

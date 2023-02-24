@@ -28,3 +28,28 @@ body {
 	width: 300px;
 	margin-left: 0px;
 }
+/* div. style */
+.col.s12.l6.offset-l3 {
+	margin-left: auto;
+}
+/* .container style */
+.container {
+	background-color: #fff;
+	background: rgba(255, 254, 254, 0.4);
+	border-radius: 10px;
+	box-shadow: 0 0 10px 2px rgba(199, 18, 18, 0.1);
+	width: 500px;
+	overflow: hidden;
+	display: grid;
+	justify-content: center;
+	align-items: center;
+	margin-left: 0;
+}
+/* input text color */
+.white-text {
+	color: #0d6efd !important;
+}
+/* paragraph style */
+P {
+	padding: 8px;
+}

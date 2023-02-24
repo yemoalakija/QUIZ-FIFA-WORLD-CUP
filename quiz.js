@@ -65,3 +65,11 @@ const questions = [
 		options: ["Morocco", "Qatar", "Senegal"],
 	},
 ];
+
+let question_count = 0;
+let points = 0;
+
+window.onload = function () {
+	shuffle(questions);
+	show(question_count);
+};

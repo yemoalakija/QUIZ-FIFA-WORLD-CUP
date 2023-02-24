@@ -1,9 +1,10 @@
+/* Global setting */
 * {
 	box-sizing: border-box;
 }
-
+/* Body style */
 body {
-	background-image: url(../images/WCTROPHY.png);
+	background-image: url("/assets/images/WCTROPHY.png");
 	background-repeat: no-repeat;
 	background-position: center;
 	display: grid;
@@ -12,80 +13,18 @@ body {
 	height: 100vh;
 	overflow: hidden;
 	margin: 0;
-
-	   /* animates zoom effect on loading page */
-	   animation-name: body;
-	   animation-duration: 5s; 
-	   animation-fill-mode: forwards;
-   }
-	   
-	   /* creates the level zoom for trophy image*/
-	   @keyframes body {
-		   from{
-			   transform: scale(1);
-		   }
-		   to{
-			   transform: scale(1.1);
-		   }
 }
-
-#bg-color {
-	background-color: #ffffff;
-}
-
-.container {
-	background-color: #ffffff;
-	background: rgba(255, 254, 254, 0.4);
-	border-radius: 10px;
-	box-shadow: 0 0 10px 2px rgba(199, 18, 18, 0.1);
-	width: 500px;
-	overflow: hidden;
-	display: grid;
-	justify-content: center;
-	align-items: center;
-	margin-left: 0;
-	margin-top: 50px;
-}
-
-.container section {
-	width: 300px;
-	margin-left: 0px;
-}
-
+/* header style */
 .heading {
 	display: flex;
 	justify-content: center;
 	align-items: center;
 }
-
 .fifa-head {
 	text-decoration: none;
 }
-
-.white-text {
-	color: #0d6efd !important;
-}
-
-P {
-	padding: 8px;
-}
-
-.startbutton {
-	background-color: red;
-	color: #ffffff;
-	border-radius: 0.1in;
-	font-size: x-large;
-	font-weight: bold;
-	text-align: justify;
-	margin-left: 0.2in;
-}
-
-/* For small screen size from 360px wide and down */
-
-@media screen and (max-width: 360px) {
-	
-	#bg-color {
-		background-size: 360px 740px;
-		height: 740px;
-	}
+/* .container section style */
+.container section {
+	width: 300px;
+	margin-left: 0px;
 }

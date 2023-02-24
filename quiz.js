@@ -98,3 +98,17 @@ function show(count) {
     // adds an event listener to each options to toggle the "active" class when clicked.
 	  toggleActive();
 }
+
+function toggleActive() {
+	let option = document.querySelectorAll("li.option");
+	for (let i = 0; i < option.length; i++) {
+		option[i].onclick = function () {
+			for (let i = 0; i < option.length; i++) {
+				if (option[i].classList.contains("active")) {
+					option[i].classList.remove("active");
+				}
+			}
+			option[i].classList.add("active");
+		};
+	}
+}

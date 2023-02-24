@@ -82,3 +82,19 @@ function shuffle(array) {
 	}
 	return array;
 }
+
+// displays the current questions and its options to the user.
+function show(count) {
+	let question = document.getElementById("questions");
+	let [first, second, third] = questions[count].options;
+
+	question.innerHTML = `<h2>Q${count + 1}. ${questions[count].question}</h2>
+    <ul class="option_group">
+    <li class="option">${first}</li>
+    <li class="option">${second}</li>
+    <li class="option">${third}</li>
+    </ul>`;
+
+    // adds an event listener to each options to toggle the "active" class when clicked.
+	  toggleActive();
+}

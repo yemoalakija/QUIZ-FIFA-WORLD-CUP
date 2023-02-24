@@ -90,3 +90,36 @@ h1 {
 	background-color: #b5b7b8;
 	color: #fff;
 }
+/* this area for the user score after the quiz: result.html styles */
+.username,
+.userpoints {
+	color: rgb(15, 165, 65);
+	text-align: center;
+	margin-top: 15px;
+}
+/* user points style */
+.your-p {
+	color: rgb(145, 194, 72);
+	font-weight: 500;
+	font-size: 30px;
+}
+/* user name style */
+.your-n {
+	font-size: 50px;
+	color: rgb(15, 197, 85);
+}
+.border {
+	height: 500px;
+	width: 500px;
+	display: block;
+	justify-content: center;
+	border-radius: 10px;
+	top: 100px;
+	border-color: transparent;
+}
+/* back home */
+.btn-center {
+	display: block;
+	margin: 0 auto;
+	width: 100px;
+}

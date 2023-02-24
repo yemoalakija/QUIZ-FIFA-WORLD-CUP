@@ -73,3 +73,12 @@ window.onload = function () {
 	shuffle(questions);
 	show(question_count);
 };
+
+// shuffles the questions array randomly.
+function shuffle(array) {
+	for (let i = array.length - 1; i > 0; i--) {
+		const j = Math.floor(Math.random() * (i + 1));
+		[array[i], array[j]] = [array[j], array[i]];
+	}
+	return array;
+}

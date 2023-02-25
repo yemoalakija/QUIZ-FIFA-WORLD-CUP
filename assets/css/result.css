@@ -43,6 +43,9 @@ section .wrapper {
 h1 {
 	text-align: center;
 }
+h2 {
+	background-color: #fff;
+}
 .quiz_header .quiz_user h1:nth-child(2) {
 	display: none;
 }
@@ -116,6 +119,7 @@ h1 {
 	border-radius: 10px;
 	top: 100px;
 	border-color: transparent;
+	background-color: #fff;
 }
 /* back home */
 .btn-center {

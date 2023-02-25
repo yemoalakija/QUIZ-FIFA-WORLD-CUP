@@ -112,3 +112,31 @@ function toggleActive() {
 		};
 	}
 }
+
+// goes to the next question when the "Next" button is clicked.
+function next() {
+	if (question_count == questions.length - 1) {
+		// redirects the user to the results page if all questions have been answered.
+		location.href = "result.html";
+	}
+	console.log(question_count);
+
+	let user_answer = document.querySelector("li.option.active");
+	if (!user_answer) {
+		// prompts the user to select an answer, without this, the quiz doesn't proceed.
+		alert("Please select an answer to proceed to the next question.");
+		return;
+	}
+	user_answer = user_answer.innerHTML;
+
+	if (user_answer == questions[question_count].answer) {
+		// increases the user's points if the selected answer is correct.
+		points += 1;
+		sessionStorage.setItem("points", points);
+	}
+	console.log(points);
+
+	question_count++;
+	// displays the next question and its options to the user
+	show(question_count);
+}

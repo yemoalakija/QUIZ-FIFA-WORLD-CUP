@@ -5,7 +5,7 @@
 	box-sizing: border-box;
 }
 body {
-	background-image: url("/assets/images/BALLFLAG.png");
+	background-image: url("../images/BALLFLAG.png");
 	background-repeat: no-repeat;
 	display: flex;
 	align-items: center;
@@ -44,7 +44,8 @@ h1 {
 	text-align: center;
 }
 h2 {
-	background-color: #fff;
+	color: #fff;
+	background-color: black;
 }
 .quiz_header .quiz_user h1:nth-child(2) {
 	display: none;

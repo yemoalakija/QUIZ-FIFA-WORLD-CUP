@@ -4,7 +4,7 @@
 }
 /* Body style */
 body {
-	background-image: url("/assets/images/WCTROPHY.png");
+	background-image: url("../images/WCTROPHY.png");
 	background-repeat: no-repeat;
 	background-position: center;
 	display: grid;

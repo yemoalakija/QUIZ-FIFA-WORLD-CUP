@@ -6,6 +6,8 @@
 
 2. <a href ="#features">FEATURES</a>
 
+    <a href ="#quiz-instructions">Quiz Instructions</a>
+
     <a href ="#home-page">Home Page</a>
 
     <a href ="#quiz-page">Quiz Page</a>
@@ -21,6 +23,8 @@
 4. <a href ="#testing">TESTING</a>
 
     <a href ="#lighthouse-testing">Lighthouse Testing</a>
+
+    <a href ="#console-testing">Console Testing</a>
 
     <a href ="#validator-testing">Validator Testing</a>
 
@@ -54,10 +58,7 @@
 
 ## ABOUT THIS WEBSITE
 
-This website is an interactive quiz for users to score themselves on their knowledge of the FIFA World Cup. There are 12 historical questions, with each question having 2 wrong answers and 1 correct answer. Upon completion of the quiz, the users'score is dispalyed 
-
-
-out of a possible 12 points.  
+This website is an interactive quiz for users to score themselves on their knowledge of the FIFA World Cup. There are 10 historical questions, with each question having 2 wrong answers and 1 correct answer. Upon completion of the quiz, the users'score is dispalyed out of a possible 10 points.  
 
 Here is the link to the website: [QUIZ - FIFA WORLD CUP]( https://yemoalakija.github.io/QUIZ-FIFA-WORLD-CUP/)
 
@@ -67,11 +68,17 @@ Here is the link to the website: [QUIZ - FIFA WORLD CUP]( https://yemoalakija.gi
 
 ## FEATURES
 
-The website is very user friendly and responsive with high quality HTML, CSS and JavaScript features. These features enable the user to comfortably access the quiz using all devices including mobile, ipads, laptops and desktops computers. 
+The website is very user friendly and responsive with high quality HTML, CSS and JavaScript features. These features enable the user to comfortably access the quiz using all devices including mobile, ipads, laptops and desktops computers.
+
+### Quiz Instructions
+
+Users are advised to read the Quiz instruction as seen here before starting the game:
+
+![Instructions](assets/images/Instructionspage.png)
 
 #### Home Page
 
-The Front Page of this website has a background photo of The FIFA World Cup and it's interactive for the site user to input USERNAME, START the quiz and get information about the quiz from the INSTURCTION button. 
+The Front Page of this website has a background photo of The FIFA World Cup and it's interactive for the site user to sumbit USERNAME, START the quiz and get information about the quiz from the INSTURCTION button. 
 This page also has a footer section at the bottom. There are social media links including Youtube, Twitter and Facebook. Here users can watch some great World Cup goals (see below Footer section of this README for clickable links).
 
 ![homepage](assets/images/Homepage.png)
@@ -79,13 +86,13 @@ This page also has a footer section at the bottom. There are social media links 
 
 #### Quiz Page
 
-After clicking the "START QUIZ" button, the next page opens up to start the quiz. The player can start playing the quiz and will receive quiz-results at the end. 
+After clicking the "START QUIZ" button, the next page opens up to start the quiz. The player can start playing the quiz and will receive quiz-results at the end. The questions are also randomize for higher user experience. Users can refresh the page and a new question is displayed.  
 
 ![Quizpage](assets/images/Quizpage.png)
 
 #### Results Page
 
-On this last page, you will see your result out of 12 questions. There is also a "Back-Home" button to return to the Front Page or Start.
+On this last page, you will see your result out of 10 questions. There is also a "Back-Home" button to return to the Front Page or Start.
 
 ![Resultspage](assets/images/Resultspage.png)
 
@@ -115,6 +122,11 @@ As shown in the picture below, this website passes all criteria including Perfor
 
 ![LighthouseTest](assets/images/LighthouseTest.png)
 
+### Console Testing
+
+Javascript console has been tested with no errors as seen here:
+
+![Console](assets/images/JSConsoleTest.png)
 
 ### Validator Testing 
 
@@ -234,7 +246,7 @@ The footer is beneath the Front Page and has clickable social media icons links 
 
 ## ACKNOWLEDGEMENT 
 
-This website was completed in accordance with the criteria for Portfolio 2 Project of The Full Stack Software Developer Diploma at the Code Institute. My special gratitude goes to everyone that has made this project successful including my mentor Precious Ijege, the Slack community, especially Kera Cudmore and Lane-Sawyer Thompson and the entire Code Institute for their support and assistance. 
+This website was completed in accordance with the criteria for Portfolio 2 Project of The Full Stack Software Developer Diploma at the Code Institute. My gratitude goes to Code Institute. 
 
 Thank You. 
 

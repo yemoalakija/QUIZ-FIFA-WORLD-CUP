@@ -127,7 +127,7 @@
 					return;
 				}
 				submitted(event); // calls the submitted function to store the name.
-				startQuizBtn.removeAttribute("disabled"); // enables the "Start Quiz" button.
+				startQuizBtn.classList.remove("disabled"); // enables the "Start Quiz" button.
 				submitNameBtn.style.display = "none"; // hides the "Submit Name" button when clicked for submission.
 			});
 

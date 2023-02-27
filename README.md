@@ -16,9 +16,13 @@
 
     <a href ="#future-features">Future Features</a>
 
-3. <a href ="#design">DESIGN</a>
+3.  <a href ="#user-experience-ux">USER EXPERIENCE UX</a>
 
-    <a href ="#color-theme">Color Theme</a>
+    - <a href ="#wire-frames">Wire Frames</a>
+
+    - <a href ="#structure">Structure</a>
+
+    - <a href ="#color-theme">Color Theme</a>
 
 4. <a href ="#testing">TESTING</a>
 
@@ -100,10 +104,28 @@ On this last page, you will see your result out of 10 questions. There is also a
 
 Additional features in the near future shall include more quiz questions on the just-concluded FIFA World Cup 2022 hosted by Qatar. 
 
-## DESIGN
+## USER EXPERIENCE UX
+
+### Wire Frames
+
+The Wire Frames for this website is seen here. There are 3 pages namely Index, Quiz and Results: 
+
+![wireindex](assets/images/wireindex.jpg)
+
+![wirequiz](assets/images/wirequiz.jpg)
+
+![wireresults](assets/images/wireresults.jpg)
+
+
+### Structure
 
 The design for this website includes image references to The FIFA World Cup which includes The World Cup Trophy, A football with many country flags, and football-boots with many country flags. 
 There is also a favicon "FIFA" icon added to the browser display. 
+On the home page, there are social media icons that opens external pages to watch videos on The FIFA World Cup. User can also read Quiz instructions on this page. 
+The Quiz shall only start after the user has submitted a name. 
+The 10 Quiz questions on the Quiz page has been randomized. 
+Finally the Results page displays user's result out of a possible 10 answers and there is a "Back Home" button to return the user to the home page. 
+
 
 ### Color-Theme
 
@@ -219,6 +241,7 @@ Specific contents and media (including photos and videos) were sourced from vari
 - [Cloud Flare](https://www.cloudflare.com/)
 
 
+
 Others for general use includes: 
 
 
@@ -231,6 +254,8 @@ Others for general use includes:
 - [CSSColorExtractor](http://www.css-color-extractor.com/). This was used to extract website color theme. 
 
 - [AmIResponsive?](https://amiresponsive.co.uk/) - This was used to extract website mediascreen sizes. 
+
+- [Balsamiq](https://balsamiq.com/) - This was used to achieve Wire Frames. 
 
 
 #### Footer 

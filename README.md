@@ -180,12 +180,17 @@ This website was succcesfully tested on the following browsers and there no erro
 
 ### Unfixed Bugs
 
-As mentioned above, the below code was added to setting.json in an attempt to remove this error.
+- As mentioned above, the below code was added to setting.json in an attempt to remove this error.
     "jshint.options": {
         "esversions": 6
     }
 Unfortunately this still does not clear warning message in (https://jshint.com/) i.e "	'let' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz)."
-Kindly note that this has no negative effect on the codes functionality throughout the website. 
+
+- The below console error message displays on the Results page (only on the live deployment):
+Error with Permissions-Policy header: Origin trial controlled feature not enabled: 'interest-cohort'
+There was an attempt to fix this by including: <meta http-equiv="Permissions-Policy" content="interest-cohort=(reporting)"> to all html files. This did not fix it. 
+
+Kindly note that all above has no negative effect on the codes functionality throughout the website. 
 
 ## TECHNOLOGIES USED
 
